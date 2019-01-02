@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:hint="UserName"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="199dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="135dp"
+        android:layout_marginStart="76dp"
+        android:onClick="fetch"
+        android:text="Fetch"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="329dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="76dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button3"
+        android:layout_marginEnd="60dp"
+        android:onClick="back"
+        android:text="Back"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="329dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp" />
+</RelativeLayout>
